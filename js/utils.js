@@ -107,7 +107,7 @@ const btf = {
     }
   },
 
-  scrollToDest: (pos, time = 500) => {
+  /* scrollToDest: (pos, time = 500) => {
     const currentPos = window.pageYOffset
     const isNavFixed = document.getElementById('page-header').classList.contains('fixed')
     if (currentPos > pos || isNavFixed) pos = pos - 70
@@ -118,7 +118,7 @@ const btf = {
         behavior: 'smooth'
       })
       return
-    }
+    } */
 
     let start = null
     pos = +pos
